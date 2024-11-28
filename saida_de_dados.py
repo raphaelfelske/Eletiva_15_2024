@@ -12,3 +12,7 @@ print(f"SALARIO = {salario:.2f}")
 print(f"ALTURA = {altura:.2f}") 
 print(f"GENERO = {genero}") 
 print(f"NOME = {nome}")
+
+print(f"A funcionaria {nome}, sexo {sexo}, ganha {salario:.2f} e tem {idade} anos")
+
+print("A funcionaria {:s}, sexo {:s}, ganha {:.2f} e tem {:d} anos".format(nome, sexo, salario, idade))
